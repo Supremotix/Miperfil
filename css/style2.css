@@ -1,50 +1,53 @@
-/* atributos generales */
 * {
   color: floralwhite;
   margin: 0;
+
   box-sizing: border-box;
 }
-
-/* Cuerpo */
-
 body {
   background: url(../img/Imagen.jpg) no-repeat center top;
   background-color: #140e02;
   opacity: 1;
   background-size: cover;
   font-family: cursive;
-  padding-left: 5%;
+  padding-left: 10%;
   height: 100vh;
 }
-
-/*  Cabeza */
-
+.head-b {
+  position: fixed;
+}
+.box {
+  display: inline-block;
+}
 .right,
 .left {
   display: inline-block;
 }
 
-/* Texto DEscripcion */
+main {
+  padding-top: 3em;
+}
 .titulo {
   font-weight: bold;
   letter-spacing: 2px;
   display: inline;
 }
-/* cuadros habilidades */
+
 .box-2-1 {
   display: inline-block;
 }
-
+ul {
+  padding-left: 30px;
+  display: inline-block;
+}
 .Logo {
   padding: 20px;
   font-size: 50px;
 }
-
-/*  pie de pagina */
 img {
   width: 50px;
   border-radius: 20%;
 }
-.profile {
-  display: inline-block;
+h1 {
+  padding: 10px;
 }
