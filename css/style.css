@@ -1,6 +1,6 @@
 /* atributos generales */
 * {
-  color: floralwhite;
+  color: #ffffff;
   margin: 0;
   box-sizing: border-box;
 }
@@ -18,31 +18,67 @@ body {
 }
 
 /*  Cabeza */
+main {
+  padding-top: 3rem;
+}
 
+.head-b {
+  position: fixed;
+  width: 100%;
+}
 .right,
 .left {
   display: inline-block;
 }
 
+.right {
+  display: inline-block;
+  text-align: right;
+  width: 40em;
+}
+
 /* Texto DEscripcion */
+
 .titulo {
   font-weight: bold;
   letter-spacing: 2px;
-  display: inline;
+  width: 200px;
+  text-align: center;
 }
 /* cuadros habilidades */
-.box-2-1 {
-  display: inline-block;
+.box-2 {
+  background: royalblue;
+  margin: 2em;
 }
-
+.box-2-1 {
+  background: sienna;
+  display: inline-block;
+  width: 18em;
+}
+.box-2-2 {
+  background: steelblue;
+  display: inline-block;
+  padding: 20px;
+  width: 220px;
+  height: 200px;
+  margin: 1em auto;
+  text-align: center;
+}
 .Logo {
   padding: 20px;
-  font-size: 50px;
+  font-size: 60px;
+  display: inline-block;
+}
+ul {
+  text-align: left;
 }
 
 /*  pie de pagina */
+footer {
+  padding-top: 2rem;
+}
 img {
-  width: 50px;
+  width: 100px;
   border-radius: 20%;
 }
 .profile {
